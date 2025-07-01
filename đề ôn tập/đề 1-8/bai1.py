@@ -1,0 +1,5 @@
+n=int(input())
+so_chu_so=len(str(n))
+a=sum(i**2 for i in range(1,n+1))
+b=round(sum(i//(i+1) * (i+2) for i in range(1,n+1)),4 )
+print(b)

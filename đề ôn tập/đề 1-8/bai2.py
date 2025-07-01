@@ -1,0 +1,8 @@
+n=int(input())
+a=list(map(int,input().split()))
+tong=sum(a)
+a1=sorted(a)
+a2=max(a1,key=abs)
+print(tong)
+print(a1)
+print(a2)
